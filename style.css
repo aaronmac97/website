@@ -1,0 +1,76 @@
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    color: orangered !important;
+}
+
+.offcanvas{
+    background-color: white;
+}
+.nav-link{
+    color: midnightblue !important;
+}
+.bi-list{
+    color: midnightblue;
+    font-size: xx-large;
+}
+.bi-x-lg{
+    color: midnightblue;
+}
+
+.btn-search{
+    background-color: orangered !important;
+    border-radius: 0px;
+    color: white;
+    
+}
+
+
+.nav-link:hover{
+    color: orangered !important;
+    text-decoration: underline;
+    transition: all 0.9s;
+
+}
+.btn-search:hover{
+    opacity: 0.8;
+    transition: all 0.9s;
+}
+.search-input{
+    border-radius: 0%;
+}
+
+.bi-x{
+    color: red;
+    cursor:pointer;
+
+}
+.main-image{
+    image-orientation: flip;
+    border-radius: 50%;
+}
+.content-div{
+    border-left: 2px solid orangered;
+}
